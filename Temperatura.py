@@ -28,7 +28,7 @@ def B():
     except:
         print("Apenas números seu animal.")
         A()
-    result = result-32/1.8
+    result = (result-32)/1.8
     print(f"O valor de fahrenheit em celsius é: {result}C°")
     recomecar()
 
@@ -42,5 +42,6 @@ def recomecar():
     else:
         print("Escolha inválida! Tente novamente.")
         recomecar()
+
 
 escolha()

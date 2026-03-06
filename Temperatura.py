@@ -27,7 +27,7 @@ def B():
         result = float(input("Insira o valor a ser transformado (Apenas números): "))
     except:
         print("Apenas números seu animal.")
-        A()
+        B()
     result = (result-32)/1.8
     print(f"O valor de fahrenheit em celsius é: {result}C°")
     recomecar()
@@ -45,3 +45,4 @@ def recomecar():
 
 
 escolha()
+

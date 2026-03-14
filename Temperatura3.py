@@ -36,7 +36,6 @@ def recomecar():
     while True:
         i = input("Deseja fazer outra conta? (S/N)")
         if i.upper() == "S":
-            escolha()
             break
         elif i.upper() == "N":
             exit()
